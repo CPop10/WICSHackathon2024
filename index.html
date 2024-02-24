@@ -1,6 +1,5 @@
 <html>
 <head>
-    <!-- Title and link to CSS file -->
     <title>WICS Hackathon 2024</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,38 +8,33 @@
         <div class="navbar">
             <!-- logo to be put in top left corner -->
             <img src = "airplaneLogo.png" class = "logo">
-            <ul>
+            <ul id = "item">
                 <!-- tabs to navigate between pages -->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="hotelsPage.html">Hotels</a></li>
-                <li><a href="flightsPage.html">Flights</a></li>
-                <li><a href="rentalsPage.html">Rentals</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#flights">Flights</a></li>
+                <li><a href="#rentals">Rentals</a></li>
             </ul>
+        </div>
+        <div id = "home">
+        </div>
+        <div id = "hotels">
+            <h1>get hotels here</h1>
+        </div> 
+        <div id = "flights">
+            <h1>get flights here</h1>
+        </div>
+        <div id = "rentals">
+            <h1>get rentals here</h1>
         </div>
         <div class="content">
             <!-- home screen with button -->
             <h1>Trips.com</h1>
             <p>Build your perfect trip!</p>
             <div>
-                <button type="button" onclick="location.href = 'flightsPage.html'"><span></span>Start Planning</button>
+                <button type="button" onclick="location.href = '#flights'"><span></span>Start Planning</button>
             </div>
         </div>
-         
-          
-          </div>
-        <section class="about">
-            
-            <div class="about-text"> <small>ABOUT OUR COMPANY</small></div>
-                <div class="about-img"> <img src="IMG_2076.jpeg"  > </div>
-            <div  class="about-img2" ></div><img src ="IMG_2078.png"  > </div>
-                <h2>We are Trips.com!</h2>
-
-               <div class="about-text" ></div><p>Hello travelers! We are travel gurus Cole Popliecec and Charlie Wittemann. We are here to give you the ultimate travel experience. With years of software design experience, and a passion for exploring the world, we exist to help you find the perfect travel destination to fit your needs. </p>  <a href="#">ABOUT US</a>
-            </div>
-        </section>
-        <div id = "bottomHome">
-            <h1>Happy Traveling!</h1>
-        </div>
-    </div>
+    </div>  
 </body>
 </html>
